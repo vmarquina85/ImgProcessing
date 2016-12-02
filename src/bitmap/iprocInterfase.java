@@ -21,5 +21,10 @@ public interface iprocInterfase {
     public int getA(int[][] binaryImage, int y, int x);
     public int getB(int[][] binaryImage, int y, int x);
     public int [][] createImageData(BufferedImage bin);
-    public BufferedImage UpdateBufferedImage(int[][] binaryImage,BufferedImage bin);
+    public BufferedImage UpdateBufferedImage(int[][] binaryImage,BufferedImage bin, int angulo);
+    public void aplicarConvolucion(BufferedImage Esqueletizado,int[][] Kernel);
+    
+
+    
+    
 }
